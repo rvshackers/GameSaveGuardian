@@ -13,7 +13,7 @@ from backup_core import BackupWorker
 
 CONFIG_FILE = "settings.json"
 CURRENT_VERSION = "1.0"  # Hamara current V1 version
-UPDATE_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/GameSaveGuardian/main/version.json" # Placeholder
+UPDATE_URL = "https://raw.githubusercontent.com/Rvshackers/GameSaveGuardian/main/version.json" # Placeholder
 def get_asset_path(filename):
     """Yeh check karega ki hum .exe chala rahe hain ya normal python script"""
     if hasattr(sys, '_MEIPASS'):
